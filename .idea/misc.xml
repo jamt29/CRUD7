@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/drawable/estilo.xml" value="0.35555555555555557" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/drawable/estilosboton.xml" value="0.3828125" />
@@ -18,6 +19,21 @@
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/content_main.xml" value="0.33" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/estilosboton.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/ventana1.xml" value="0.33" />
+=======
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/circulo1.xml" value="0.1" />
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/ventana1.xml" value="0.33" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_list_view_articulos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_recycler_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/circulo1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/list_recyclerview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/ventana1.xml" value="0.36666666666666664" />
+>>>>>>> 21062af583f2930b87b99afad6b0c332ba06035e
       </map>
     </option>
   </component>

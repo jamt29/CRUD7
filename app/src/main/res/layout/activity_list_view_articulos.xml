@@ -29,7 +29,7 @@
             android:layout_height="match_parent"
             android:background="#fff"
             android:queryHint="Search"
-            android:IconifiedByDefault="false"
+            android:iconifiedByDefault="false"
             />
         <Space
             android:layout_width="match_parent"
