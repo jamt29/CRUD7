@@ -120,4 +120,7 @@
                 android:textStyle="bold"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
+
+</LinearLayout>

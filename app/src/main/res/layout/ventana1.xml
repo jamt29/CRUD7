@@ -61,6 +61,7 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/tv_close"
             android:layout_width="30dp"

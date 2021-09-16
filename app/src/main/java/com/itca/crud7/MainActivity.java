@@ -82,4 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void editar(View view) {
     }
+
+    public void alta(View view) {
+    }
 }

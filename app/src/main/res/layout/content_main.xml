@@ -20,7 +20,7 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:fontFamily="serif-monospace"
-            />
+            tools:ignore="HardcodedText" />
 
     <ScrollView
         android:layout_width="match_parent"
