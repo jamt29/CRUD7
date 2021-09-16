@@ -22,4 +22,144 @@
             android:fontFamily="serif-monospace"
             />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="167dp"
+                android:src="@drawable/comp1"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese el codigo"
+                android:inputType="number"
+                android:textColor="#fff"
+                android:shadowColor="#A82A2A"
+                android:shadowDx="8"
+                android:shadowDy="9"
+                android:shadowRadius="5"
+                android:paddingLeft="25dp"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese la descripcion del articulo"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="25dp"
+                android:drawablePadding="5dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese la precio del articulo"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:inputType="numberDecimal"
+                android:paddingLeft="25dp"
+                android:drawablePadding="5dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Guardar"
+                android:textColor="#fff"
+                android:onClick="alta"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Guardar"
+                android:textColor="#fff"
+                android:onClick="alta"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Consulta por codigo"
+                android:textColor="#fff"
+                android:onClick="consultaporcodigo"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Consultar por descripcion"
+                android:textColor="#fff"
+                android:onClick="consultarpordescripcion"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Baja por codigo"
+                android:textColor="#fff"
+                android:onClick="bajaporcodigo"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Editar"
+                android:textColor="#fff"
+                android:onClick="editar"
+                android:shadowColor="#2314A8"
+                android:shadowDx="3"
+                android:shadowDy="0"
+                android:shadowRadius="8"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 </LinearLayout>
