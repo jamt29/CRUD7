@@ -28,7 +28,6 @@
         android:spinnerMode="dropdown"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@drawable/estilos3spinner"
         android:paddingLeft="15dp"/>
 
     <!--android:spinnerMode="dialog"-->
