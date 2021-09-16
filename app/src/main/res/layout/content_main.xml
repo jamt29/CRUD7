@@ -86,20 +86,7 @@
                 android:shadowDy="0"
                 android:shadowRadius="8"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="30dp"
-                android:text="Guardar"
-                android:textColor="#fff"
-                android:onClick="alta"
-                android:shadowColor="#2314A8"
-                android:shadowDx="3"
-                android:shadowDy="0"
-                android:shadowRadius="8"
-                />
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -109,6 +96,8 @@
                 android:text="Consulta por codigo"
                 android:textColor="#fff"
                 android:onClick="consultaporcodigo"
+                android:drawableLeft="@drawable/ic_search"
+
                 android:shadowColor="#2314A8"
                 android:shadowDx="3"
                 android:shadowDy="0"
@@ -134,7 +123,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="30dp"
-                android:text="Baja por codigo"
+                android:text="Borrar"
                 android:textColor="#fff"
                 android:onClick="bajaporcodigo"
                 android:shadowColor="#2314A8"

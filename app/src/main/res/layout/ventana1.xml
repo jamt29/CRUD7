@@ -18,41 +18,38 @@
             android:layout_marginTop="25dp"
             android:textSize="20dp"/>
 
-        <EditText
-            android:id="@+id/et_cod"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginTop="55dp"
+    <EditText
+        android:id="@+id/et_cod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/estilosedittext"
+        android:drawableStart="@drawable/ic_llave"
+        android:drawablePadding="5dp"
+        android:hint="Ingrese el código"
+        android:inputType="number"
+        android:paddingLeft="25dp" />
 
-            android:drawablePadding="5dp"
-            android:hint="Ingrese el código"
-            android:inputType="number"
-            android:paddingLeft="25dp"
-            />
 
-    <!--android:background="@drawable/estiloedittext"
-            android:drawableStart="@drawable/ic_llave"-->
-
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_buscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="62dp"
         android:layout_marginTop="140dp"
         android:layout_marginRight="100dp"
-
-        android:drawablePadding="0dp"
+        android:background="@drawable/estilo"
+        android:drawableLeft="@drawable/ic_search"
         android:paddingLeft="10dp"
         android:shadowColor="#2314A8"
         android:shadowDx="-3"
         android:shadowDy="0"
         android:shadowRadius="8"
         android:text="Buscar"
-        android:textColor="#fff" />
-    <!--android:background="@drawable/estiloboton"
-        android:drawableStart="@drawable/ic_search"-->
+        android:textColor="#ffff" />
+
 
 
 
@@ -73,9 +70,9 @@
             android:text="X"
             android:textAlignment="center"
             android:textSize="20dp"
-
+            android:background="@drawable/circulo1"
             android:layout_marginRight="10dp"/>
 
-        <!--android:background="@drawable/circulo1"-->
+        <!--"-->
     </LinearLayout>
 </RelativeLayout>
