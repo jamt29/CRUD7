@@ -79,4 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void bajaporcodigo(View view) {
     }
+
+    public void editar(View view) {
+    }
 }
