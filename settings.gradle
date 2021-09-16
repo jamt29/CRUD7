@@ -1,0 +1,2 @@
+rootProject.name = "CRUD7"
+include ':app'
