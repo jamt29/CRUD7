@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/drawable/ic_baseline_image_search_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.48402948402948404" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/axtivity_detalles_articulos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/circulo1.xml" value="0.1" />
+        <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Users/ITCA/Desktop/nuevo/CRUD7/app/src/main/res/layout/ventana1.xml" value="0.33" />
-        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/ITCA/Documents/GitHub/CRUD7/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
