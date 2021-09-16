@@ -7,11 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-<<<<<<< HEAD
     <color name="colorPrimaryDark">#FFEDED</color>
-=======
-
     <color name="red_1">#870505</color>
     <color name="colorToolBar">#1A77A3</color>
->>>>>>> 2049a78054f4487bce8b8116e4698c77091f2513
 </resources>
