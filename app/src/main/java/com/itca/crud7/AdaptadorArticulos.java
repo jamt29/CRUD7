@@ -23,7 +23,6 @@ public class AdaptadorArticulos extends RecyclerView.Adapter<AdaptadorArticulos.
         this.articulosList = articulosList;
     }
 
-
     /***********************************************************************************************/
 /*ReccylerView.Adapter tiene tres métodos abstractos a los que debemos aplicar el
 modificador override.
