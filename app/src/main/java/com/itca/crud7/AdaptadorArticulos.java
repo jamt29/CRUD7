@@ -11,8 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
-public class AdaptadorArticulos extends
-        RecyclerView.Adapter<AdaptadorArticulos.ArticulosViewHolder>{
+public class AdaptadorArticulos extends RecyclerView.Adapter<AdaptadorArticulos.ArticulosViewHolder>{
 
     //Propiedad de la clase AdaptadorArticulos.
     private Context mCtx;
@@ -53,15 +52,14 @@ Especificamos el layout que cada elemento de RecyclerView debería usar.
     @Override
     public void onBindViewHolder(ArticulosViewHolder holder, int position) {
 //Toast.makeText(mCtx, "Se encontraron: "+getItemCount()+ " Registros.",
-        Toast.LENGTH_SHORT).show();
+        //Toast.LENGTH_SHORT).show();
 
         Dto dto = articulosList.get(position);
 
         holder.textViewCodigo1.setText(String.valueOf(dto.getCodigo()));
         holder.textViewDescripcion1.setText(dto.getDescripcion());
         holder.textViewPrecio1.setText(String.valueOf(dto.getPrecio()));
-        holder.textViewOtro.setText(String.valueOf("Registro #:" + (position+1)) + "/" +
-                getItemCount());
+        holder.textViewOtro.setText(String.valueOf("Registro #:" + (position+1)) + "/" + getItemCount());
     }
 
 
@@ -71,7 +69,8 @@ Especificamos el layout que cada elemento de RecyclerView debería usar.
     sólo necesitamos llamar al método size en el objeto List:
     */
     @Override
-    public int getItemCount() {
+    public int getItemCount()
+    {
         return articulosList.size();
     }
 
